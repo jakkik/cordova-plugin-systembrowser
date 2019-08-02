@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-systembrowser"
+    version="1.0.0">
+    <name>Cordova Plugin to open links in system browser</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords>cordova,plugin,browser,link</keywords>
+    <repo>https://github.com/jakkikoo/cordova-plugin-systembrowser.git</repo>
+    <issue>https://github.com/jakkikoo/cordova-plugin-systembrowser/issues</issue>
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+        <clobbers target="SystemBrowser" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="SystemBrowser">
+          <param name="android-package" value="fi.jakki.cordova.SystemBrowser" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+      <source-file src="src/android/fi/jakki/cordova/SystemBrowser.java" target-dir="src/fi/jakki/cordova/" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="SystemBrowser" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="SystemBrowser">
+                <param name="ios-package" value="SystemBrowser" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SystemBrowser.h" />
+        <source-file src="src/ios/SystemBrowser.m" />
+    </platform>
+</plugin>

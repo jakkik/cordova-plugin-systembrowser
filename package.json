@@ -1,0 +1,12 @@
+{
+  "name": "cordova-plugin-systembrowser",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-systembrowser",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "Simple plugin for iOS and Android to open links in the system browser"
+}
