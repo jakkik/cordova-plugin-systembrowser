@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-systembrowser"
-    version="1.0.0">
+    version="1.0.1">
     <name>Cordova Plugin to open links in system browser</name>
     <description></description>
     <license>MIT</license>
     <keywords>cordova,plugin,browser,link</keywords>
-    <repo>https://github.com/jakkikoo/cordova-plugin-systembrowser.git</repo>
-    <issue>https://github.com/jakkikoo/cordova-plugin-systembrowser/issues</issue>
+    <repo>https://github.com/jakkik/cordova-plugin-systembrowser.git</repo>
+    <issue>https://github.com/jakkik/cordova-plugin-systembrowser/issues</issue>
 
     <!-- android -->
     <platform name="android">
