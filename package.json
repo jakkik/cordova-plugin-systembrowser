@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-systembrowser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "cordova": {
     "id": "cordova-plugin-systembrowser",
     "platforms": [
@@ -8,5 +8,11 @@
       "ios"
     ]
   },
-  "description": "Simple plugin for iOS and Android to open links in the system browser"
+  "description": "Simple plugin for iOS and Android to open links in the system browser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakkik/cordova-plugin-systembrowser.git"
+  },
+  "homepage": "https://github.com/jakkik/cordova-plugin-systembrowser",
+  "keywords": ["cordova","browser"]
 }

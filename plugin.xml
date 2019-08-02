@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-systembrowser"
-    version="1.0.1">
+    version="1.0.2">
     <name>Cordova Plugin to open links in system browser</name>
     <description></description>
     <license>MIT</license>
